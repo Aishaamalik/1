@@ -95,7 +95,7 @@ export const services: ServiceData[] = [
 export const PHONE = "+966575921016";
 export const WHATSAPP_URL = `https://wa.me/${PHONE.replace("+", "")}`;
 export const PHONE_DISPLAY = "+966 57 592 1016";
-export const ADDRESS = "Makkah Al Mukarramah St, 3812 Makkah Al Mukarramah St, EEDB7862, Al Khobar 34624, Saudi Arabia";
+export const ADDRESS = "2964-2944 14th St, Al-Khuqbah, Al Khobar 34623, Saudi Arabia";
 export const BUSINESS_HOURS = "7:00 AM – 10:00 PM";
 export const BUSINESS_NAME = "Mohammad Mamoon Event Rental";
 export const MAP_EMBED = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3576.7!2d50.21!3d26.28!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sMakkah+Al+Mukarramah+St%2C+Al+Khobar!5e0!3m2!1sen!2ssa!4v1234567890";

@@ -1,6 +1,5 @@
 import serviceTent from "@/assets/service-tent.jpg";
 import serviceWeddingTent from "@/assets/service-wedding-tent.jpg";
-import servicePartyTent from "@/assets/service-party-tent.jpg";
 import serviceTables from "@/assets/service-tables.jpg";
 import serviceChairs from "@/assets/service-chairs.jpg";
 import serviceDecoration from "@/assets/service-decoration.jpg";
@@ -33,14 +32,6 @@ export const services: ServiceData[] = [
     description: "Make your wedding day unforgettable with our luxury wedding tent setups in Dammam and Al Khobar. We specialize in creating breathtaking tent environments with elegant draping, crystal chandeliers, premium flooring, and climate control to ensure your guests enjoy every moment in comfort and style.",
     features: ["Luxury fabric draping", "Crystal chandelier installations", "Premium carpet flooring", "Climate control systems", "Bridal suite tent options"],
     image: serviceWeddingTent,
-  },
-  {
-    slug: "party-tent-rental",
-    title: "Party Tent Rental",
-    shortDesc: "Colorful and fun party tents for birthdays, celebrations, and festive events.",
-    description: "Celebrate in style with our party tent rentals across Dammam and Al Khobar. Perfect for birthday parties, anniversaries, graduation celebrations, and family gatherings. Our party tents come in various colors and themes, and can be customized with decorations to match your celebration's mood.",
-    features: ["Themed decoration options", "Colorful canopy selections", "Sound system compatible", "Dance floor integration", "Flexible sizes for any gathering"],
-    image: servicePartyTent,
   },
   {
     slug: "table-rental",

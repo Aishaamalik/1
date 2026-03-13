@@ -54,6 +54,45 @@ const ServiceDetail = () => {
                   </li>
                 ))}
               </ul>
+
+              {(service.gallery?.length || service.videos?.length) && (
+                <div className="space-y-8 mb-8">
+                  {service.gallery?.length ? (
+                    <div>
+                      <h3 className="font-display text-xl font-semibold text-foreground mb-4">
+                        Gallery
+                      </h3>
+                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        {service.gallery.map((img, idx) => (
+                          <div key={`${service.slug}-img-${idx}`} className="overflow-hidden rounded-lg">
+                            <img
+                              src={img}
+                              alt={`${t(`service.${service.slug}.title`)} ${idx + 1}`}
+                              className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+                              loading="lazy"
+                            />
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  ) : null}
+
+                  {service.videos?.length ? (
+                    <div>
+                      <h3 className="font-display text-xl font-semibold text-foreground mb-4">
+                        {t("serviceDetail.videos")}
+                      </h3>
+                      <div className="space-y-4">
+                        {service.videos.map((video, idx) => (
+                          <div key={`${service.slug}-video-${idx}`} className="aspect-video rounded-lg overflow-hidden bg-black">
+                            <video src={video} controls className="w-full h-full object-cover" />
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  ) : null}
+                </div>
+              )}
             </div>
 
             {/* Sidebar CTA */}

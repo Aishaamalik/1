@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Raleway:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 40 20% 98%;
+    --foreground: 30 10% 12%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 30 10% 12%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 30 10% 12%;
+
+    --primary: 40 70% 45%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 30 10% 12%;
+    --secondary-foreground: 40 20% 98%;
+
+    --muted: 40 15% 94%;
+    --muted-foreground: 30 5% 45%;
+
+    --accent: 40 50% 92%;
+    --accent-foreground: 30 10% 12%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 40 15% 88%;
+    --input: 40 15% 88%;
+    --ring: 40 70% 45%;
+
+    --radius: 0.5rem;
+
+    --gold: 40 70% 45%;
+    --gold-light: 40 60% 70%;
+    --gold-dark: 40 80% 30%;
+    --cream: 40 30% 96%;
+    --charcoal: 30 10% 12%;
+    --warm-gray: 30 5% 45%;
+
+    --font-display: 'Playfair Display', serif;
+    --font-body: 'Raleway', sans-serif;
+
+    --shadow-gold: 0 4px 20px -4px hsl(40 70% 45% / 0.25);
+    --shadow-elegant: 0 10px 40px -10px hsl(30 10% 12% / 0.12);
+    --gradient-gold: linear-gradient(135deg, hsl(40 70% 45%), hsl(40 60% 55%));
+    --gradient-dark: linear-gradient(135deg, hsl(30 10% 12%), hsl(30 15% 20%));
+    --gradient-hero: linear-gradient(180deg, hsl(30 10% 12% / 0.7) 0%, hsl(30 10% 12% / 0.4) 100%);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-body);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+  }
+}
+
+@layer components {
+  .btn-gold {
+    @apply inline-flex items-center justify-center gap-2 rounded-md px-8 py-3 text-sm font-semibold transition-all duration-300;
+    background: var(--gradient-gold);
+    color: hsl(var(--primary-foreground));
+    box-shadow: var(--shadow-gold);
+  }
+
+  .btn-gold:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 24px -4px hsl(40 70% 45% / 0.35);
+  }
+
+  .btn-outline-gold {
+    @apply inline-flex items-center justify-center gap-2 rounded-md px-8 py-3 text-sm font-semibold transition-all duration-300 border-2;
+    border-color: hsl(var(--primary));
+    color: hsl(var(--primary));
+  }
+
+  .btn-outline-gold:hover {
+    background: hsl(var(--primary));
+    color: hsl(var(--primary-foreground));
+  }
+
+  .btn-whatsapp {
+    @apply inline-flex items-center justify-center gap-2 rounded-md px-8 py-3 text-sm font-semibold transition-all duration-300;
+    background: #25D366;
+    color: #fff;
+  }
+
+  .btn-whatsapp:hover {
+    background: #1da851;
+    transform: translateY(-2px);
+  }
+
+  .section-padding {
+    @apply px-4 py-16 md:px-8 md:py-24 lg:px-16;
+  }
+
+  .gold-divider {
+    @apply w-20 h-0.5 mx-auto my-4;
+    background: var(--gradient-gold);
+  }
+
+  .card-elegant {
+    @apply bg-card rounded-lg overflow-hidden transition-all duration-300;
+    box-shadow: var(--shadow-elegant);
+  }
+
+  .card-elegant:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 16px 50px -12px hsl(30 10% 12% / 0.18);
+  }
+}
+
+/* WhatsApp floating button */
+.whatsapp-float {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 1000;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #25D366;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 28px rgba(37, 211, 102, 0.5);
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* RTL support */
+html[dir="rtl"] {
+  font-family: 'Raleway', 'Cairo', sans-serif;
+}
+
+html[dir="rtl"] .tracking-\[0\.2em\],
+html[dir="rtl"] .tracking-\[0\.3em\] {
+  letter-spacing: 0.05em;
+}

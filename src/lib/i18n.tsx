@@ -58,7 +58,7 @@ const translations: Record<Lang, Record<string, string>> = {
     "about.hero.tag": "Our Story",
     "about.hero.title": "About Us",
     "about.content.title": "Your Trusted Event Rental Partner in the Eastern Province",
-    "about.content.p1": "Mohammad Mamoon Event Rental is a leading event equipment rental company serving Dammam, Al Khobar, and the broader Eastern Province of Saudi Arabia. With years of experience in the event industry, we have built a reputation for delivering premium-quality tents, tables, chairs, decoration, and complete event solutions.",
+    "about.content.p1": "AL Tasfi Party Equipment Rental Event Rental is a leading event equipment rental company serving Dammam, Al Khobar, and the broader Eastern Province of Saudi Arabia. With years of experience in the event industry, we have built a reputation for delivering premium-quality tents, tables, chairs, decoration, and complete event solutions.",
     "about.content.p2": "Our commitment to excellence ensures that every event we support — from intimate family gatherings to grand wedding celebrations and corporate functions — is executed with professionalism, attention to detail, and on-time delivery.",
     "about.content.p3": "We take pride in offering a comprehensive range of event rental equipment at competitive prices, backed by reliable customer service and professional setup teams. Our goal is to make your event planning experience seamless and stress-free.",
     "about.values.title": "Our Values",
@@ -107,7 +107,7 @@ const translations: Record<Lang, Record<string, string>> = {
     "footer.quickLinks": "Quick Links",
     "footer.services": "Services",
     "footer.contactInfo": "Contact Info",
-    "footer.copyright": "© {year} Mohammad Mamoon Event Rental. All rights reserved. | Dammam & Al Khobar, Saudi Arabia",
+    "footer.copyright": "© {year} AL Tasfi Party Equipment Rental Event Rental. All rights reserved. | Dammam & Al Khobar, Saudi Arabia",
 
     // Service titles & descriptions (keyed by slug)
     "service.tent-rental.title": "Tent Rental",

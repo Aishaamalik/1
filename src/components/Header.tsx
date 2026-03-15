@@ -23,7 +23,7 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-secondary/95 backdrop-blur-md border-b border-primary/20">
       <div className="container mx-auto flex items-center justify-between h-20 md:h-24">
         <Link to="/" className="flex items-center gap-4">
-          <img src={logo} alt="Mohammad Mamoon Event Rental Logo" className="h-20 md:h-24 w-auto" />
+          <img src={logo} alt="AL Tasfi Party Equipment Rental Event Rental Logo" className="h-20 md:h-24 w-auto" />
           <div className="hidden sm:block">
             <span className="block text-lg md:text-xl font-display font-bold text-primary-foreground">AL Tasfi</span>
             <span className="block text-sm md:text-base text-primary font-body">Event Rental</span>

@@ -10,7 +10,7 @@ const About = () => {
     <Layout>
       {/* Hero */}
       <section className="relative h-[50vh] min-h-[350px] flex items-center justify-center overflow-hidden">
-        <img src={heroEvent} alt="About Mohammad Mamoon Event Rental" className="absolute inset-0 w-full h-full object-cover" />
+        <img src={heroEvent} alt="About AL Tasfi Party Equipment Rental Event Rental" className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute inset-0" style={{ background: "var(--gradient-hero)" }} />
         <div className="relative z-10 text-center px-4">
           <p className="text-primary font-body text-sm tracking-[0.2em] uppercase mb-2">{t("about.hero.tag")}</p>

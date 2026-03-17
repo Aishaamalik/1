@@ -53,6 +53,12 @@ import serviceLighting17 from "@/assets/service-lighting 17.jpg";
 import serviceLightingVideo from "@/assets/service-lighting video.mp4";
 import serviceOutdoor from "@/assets/service-outdoor.jpg";
 import serviceEquipment from "@/assets/service-equipment.jpg";
+import serviceCoffee from "@/assets/service-coffee.jpg";
+import serviceCoffee1 from "@/assets/service-coffee 1.jpg";
+import serviceCoffee2 from "@/assets/service-coffee 2.jpg";
+import serviceCoffee3 from "@/assets/service-coffee 3.jpg";
+import serviceCoffee4 from "@/assets/service-coffee 4.jpg";
+import serviceCoffee5 from "@/assets/service-coffee 5.jpg";
 
 export interface ServiceData {
   slug: string;
@@ -189,6 +195,16 @@ export const services: ServiceData[] = [
     description: "Get everything you need for your event from one trusted supplier in Dammam and Al Khobar. Our all-inclusive equipment rental packages include tents, tables, chairs, decoration, lighting, sound systems, staging, and more. We simplify event planning by providing comprehensive solutions with delivery, setup, and collection.",
     features: ["All-inclusive packages", "Sound system rentals", "Stage & podium setup", "Red carpet & VIP areas", "Delivery & collection included"],
     image: serviceEquipment,
+  },
+  {
+    slug: "arabic-coffee-tea-service",
+    title: "Arabic Coffee & Tea Service",
+    shortDesc: "Traditional Arabic hospitality with premium coffee and tea station setup for your guests.",
+    description: "Add a warm, authentic touch to your event in Dammam and Al Khobar with our Arabic coffee and tea service. We provide a complete hospitality station setup featuring Arabic coffee (Gahwa) and tea service essentials, arranged beautifully to match your event theme and guest flow.",
+    features: ["Arabic coffee (Gahwa) & tea station setup", "Elegant serving presentation", "Flexible setup for indoor/outdoor events", "Suitable for weddings, gatherings, and corporate events", "Delivery, setup & collection available"],
+    image: serviceCoffee,
+    gallery: [serviceCoffee, serviceCoffee1, serviceCoffee2, serviceCoffee3, serviceCoffee4, serviceCoffee5],
+    videos: [],
   },
 ];
 

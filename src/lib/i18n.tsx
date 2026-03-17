@@ -154,6 +154,11 @@ const translations: Record<Lang, Record<string, string>> = {
     "service.wedding-party-equipment.shortDesc": "All-inclusive rental packages for weddings, parties, and corporate events.",
     "service.wedding-party-equipment.description": "Get everything you need for your event from one trusted supplier in Dammam and Al Khobar. Our all-inclusive equipment rental packages include tents, tables, chairs, decoration, lighting, sound systems, staging, and more. We simplify event planning by providing comprehensive solutions with delivery, setup, and collection.",
     "service.wedding-party-equipment.features": "All-inclusive packages|Sound system rentals|Stage & podium setup|Red carpet & VIP areas|Delivery & collection included",
+
+    "service.arabic-coffee-tea-service.title": "Arabic Coffee & Tea Service",
+    "service.arabic-coffee-tea-service.shortDesc": "Traditional Arabic hospitality with premium coffee and tea station setup for your guests.",
+    "service.arabic-coffee-tea-service.description": "Add a warm, authentic touch to your event in Dammam and Al Khobar with our Arabic coffee and tea service. We provide a complete hospitality station setup featuring Arabic coffee (Gahwa) and tea service essentials, arranged beautifully to match your event theme and guest flow.",
+    "service.arabic-coffee-tea-service.features": "Arabic coffee (Gahwa) & tea station setup|Elegant serving presentation|Flexible setup for indoor/outdoor events|Suitable for weddings, gatherings, and corporate events|Delivery, setup & collection available",
   },
   ar: {
     // Nav
@@ -290,6 +295,11 @@ const translations: Record<Lang, Record<string, string>> = {
     "service.wedding-party-equipment.shortDesc": "حزم تأجير شاملة لحفلات الزفاف والحفلات والفعاليات المؤسسية.",
     "service.wedding-party-equipment.description": "احصل على كل ما تحتاجه لفعاليتك من مورد موثوق في الدمام والخبر. تشمل حزم تأجير المعدات الشاملة الخيام والطاولات والكراسي والديكور والإضاءة وأنظمة الصوت والمسرح والمزيد.",
     "service.wedding-party-equipment.features": "حزم شاملة|تأجير أنظمة صوت|تجهيز مسرح ومنصة|مناطق سجادة حمراء وVIP|التوصيل والجمع مشمول",
+
+    "service.arabic-coffee-tea-service.title": "خدمة القهوة العربية والشاي",
+    "service.arabic-coffee-tea-service.shortDesc": "ضيافة عربية أصيلة مع تجهيز ركن قهوة وشاي لضيوفك.",
+    "service.arabic-coffee-tea-service.description": "أضف لمسة دافئة وأصيلة لفعاليتك في الدمام والخبر مع خدمة القهوة العربية والشاي. نوفر تجهيز ركن ضيافة متكامل للقهوة العربية (القهـوة) والشاي مع ترتيب أنيق يتناسب مع طابع الفعالية وحركة الضيوف.",
+    "service.arabic-coffee-tea-service.features": "تجهيز ركن القهوة العربية والشاي|تقديم أنيق|تجهيز مرن للفعاليات الداخلية والخارجية|مناسب للأعراس والتجمعات والفعاليات المؤسسية|التوصيل والتركيب والجمع متاح",
   },
 };
 

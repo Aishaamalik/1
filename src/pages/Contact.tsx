@@ -12,7 +12,7 @@ const Contact = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const text = `Hello, I'm ${form.name}. ${form.message} (Phone: ${form.phone}, Email: ${form.email})`;
-    window.open(`https://wa.me/966575921016?text=${encodeURIComponent(text)}`, "_blank");
+    window.open(`${WHATSAPP_URL}?text=${encodeURIComponent(text)}`, "_blank");
     toast.success("Redirecting to WhatsApp...");
   };
 

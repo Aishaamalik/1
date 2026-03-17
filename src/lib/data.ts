@@ -208,7 +208,7 @@ export const services: ServiceData[] = [
   },
 ];
 
-export const PHONE = "+966575921016";
+export const PHONE = "+966574073238";
 export const WHATSAPP_URL = `https://wa.me/${PHONE.replace("+", "")}`;
 export const PHONE_DISPLAY = "+966 57 407 3238";
 export const ADDRESS = "2964-2944 14th St, Al-Thuqbah, Al Khobar 34623, , Saudi Arabia";

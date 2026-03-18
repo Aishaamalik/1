@@ -40,7 +40,7 @@ const translations: Record<Lang, Record<string, string>> = {
 
     // Home Why
     "home.why.tag": "Why Choose Us",
-    "home.why.title": "Trusted By Mamun",
+    "home.why.title": "Trusted by Hundreds of Clients",
     "home.why.quality.title": "Premium Quality",
     "home.why.quality.desc": "Top-grade tents, furniture, and décor maintained to the highest standards.",
     "home.why.delivery.title": "Delivery & Setup",

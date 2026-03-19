@@ -8,4 +8,3 @@ const CallFloat = () => (
 );
 
 export default CallFloat;
-

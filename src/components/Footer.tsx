@@ -56,7 +56,8 @@ const Footer = () => {
             </p>
 
             {/* Social Media Icons */}
-            <div className="flex items-center gap-3 mt-5">
+            <p className="text-sm font-semibold text-primary mt-5 mb-2">{t("Follow Us")}</p>
+            <div className="flex items-center gap-3 mt-2">
               {SOCIAL_LINKS.map(({ label, href, icon }) => (
                 <a
                   key={label}

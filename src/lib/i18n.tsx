@@ -304,9 +304,8 @@ const translations: Record<Lang, Record<string, string>> = {
 };
 
 export const I18nProvider = ({ children }: { children: ReactNode }) => {
-  const [lang, setLangState] = useState<Lang>(() => {
-    return (localStorage.getItem("lang") as Lang) || "ar";
-  });
+  // Always start the site in Arabic when opened.
+  const [lang, setLangState] = useState<Lang>("ar");
 
   const setLang = (newLang: Lang) => {
     setLangState(newLang);

@@ -28,7 +28,7 @@ const translations: Record<Lang, Record<string, string>> = {
 
     // Home Hero
     "home.hero.tag": "Premium Event Rental in Dammam & Al Khobar",
-    "home.hero.title": "AL Tasfi Party Equipment Rental",
+    "home.hero.title": "AL Tasfi Party Equipment Rental EST Dammam AL Khobar",
     "home.hero.desc": "Tents, tables, chairs, decoration, and complete event solutions — delivered and set up with perfection across the Eastern Province.",
     "home.hero.call": "Call Now",
     "home.hero.whatsapp": "WhatsApp Us",

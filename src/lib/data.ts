@@ -208,9 +208,9 @@ export const services: ServiceData[] = [
   },
 ];
 
-export const PHONE = "+966574073238";
+export const PHONE = "+966568773494";
 export const WHATSAPP_URL = `https://wa.me/${PHONE.replace("+", "")}`;
-export const PHONE_DISPLAY = "+966 57 407 3238";
+export const PHONE_DISPLAY = "+966 56 877 3494";
 export const ADDRESS = "15th St,AI-Thuqbah, AI Khobar 34623";
 export const BUSINESS_HOURS = "7:00 AM – 10:00 PM";
 export const BUSINESS_NAME = "AL Tasfi Party Equipment Rental Event Rental";

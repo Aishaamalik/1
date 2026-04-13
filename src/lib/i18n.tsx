@@ -169,7 +169,7 @@ const translations: Record<Lang, Record<string, string>> = {
 
     // Home Hero
     "home.hero.tag": "تأجير معدات الفعاليات الفاخرة في الدمام والخبر",
-    "home.hero.title": "فعاليات لا تُنسى تبدأ من هنا",
+"home.hero.title": "شركة التسفي لتأجير معدات الحفلات، الدمام، الخبر",
     "home.hero.desc": "خيام، طاولات، كراسي، ديكورات وحلول فعاليات متكاملة — يتم توصيلها وتركيبها باحترافية في جميع أنحاء المنطقة الشرقية.",
     "home.hero.call": "اتصل الآن",
     "home.hero.whatsapp": "واتساب",
